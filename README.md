@@ -2,9 +2,6 @@
 
 A python command line utility to configure Native Instruments audio interfaces. 
 
-## Compatibility
-- Native Instruments Traktor Audio 10
-Currently supports Traktor Audio 10 only, tested with its latest firmware.
 
 ## How to use
 
@@ -19,7 +16,7 @@ python hacktoraudio.py <method> <channel> <device_function> <value>
 ```
 
 Examples:
-```
+```shell
 # Turn THRU on channel 1 off
 hacktoraudio.py set 1 thru off
 
@@ -29,6 +26,11 @@ hacktoraudio.py set 3 phono on
 
 Dependencies:
 - pyusb
+
+## Compatibility
+- Native Instruments Traktor Audio 10
+
+Currently supports Traktor Audio 10 only, tested with its latest firmware.
 
 ## How it works
 
