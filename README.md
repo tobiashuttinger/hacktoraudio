@@ -1,6 +1,6 @@
 # hacktoraudio
 
-A python command line utility to configure Native Instruments audio interfaces. 
+A python command line utility to configure Native Instruments audio interfaces.
 
 
 ## How to use
